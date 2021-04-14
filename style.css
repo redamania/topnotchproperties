@@ -4,47 +4,134 @@ Author:Red Velasco
 Version: 1.0
  */
  /*global css*/
+body{
+    background: radial-gradient(at 100% 170%, 
+        rgba(184,187,181,1) 21%, 
+        rgba(68,98,138,1) 55%, 
+        rgba(26,81,123,1) 65%);
+    
+}
+ /*quick calls css*/
+
 .bord-no{border:none!important;}
 .bord-rad-no{border-radius: 0rem!important;}
 .text-cent{text-align: center!important;}
+.disp-block{display:block!important;}
+.disp-inblock{display:inline-block!important;}
 
-body{
-    background: radial-gradient(at 100% 170%, rgba(184,187,181,1) 21%, rgba(68,98,138,1) 55%, rgba(26,81,123,1) 65%);
+.section h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400!important;
+    font-size: 30pt;
+    padding: 75px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+}
+/*carousel ========*/
+.car-main .car-inner{
+    /*border-bottom: 35px solid #062e5d;*/
+    max-height: 94vh;
+}
+.car-main .car-typo-main span{
+    font-weight: 500;
 }
 
- /*global css*/
+.car-main .car-kiko-main{
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    width: 40vw;
+}
+.car-main .car-typo-main{
+    position: absolute;
+    bottom: 20vh;
+    width: 58vw;
+    z-index: 990;
+}
+.car-typo-main .car-text-img-top{
+    position: relative;
+    left: 30vw;
+}
+.car-main .car-typo-main h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 3.5vw;
+    text-shadow: 0px 2px 5px rgb(0 0 0 / 60%);
+    margin-bottom: 0;
+}
 
+
+
+.car-mw-logo{
+    padding: 20px 0px;
+    filter: drop-shadow(1px 0px 1px #fff);
+    width: 30%;
+}
+
+.car-main .car-typo-main h3{
+    background: #eda80a;  
+    height: 9vh;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.8vw;
+    padding: 20px;
+}
+
+
+/*featured properties =========*/
 .fp-title {
     text-transform: uppercase;
     letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600!important;
+    font-size: 25px;
+    font-weight: 300;
+    color:#154367;
 }
 
 .fp-img-cont {
     min-height: 360px;
     height: 100%;
-    background: red;
+    border: 5px solid #e7b009;
     display: block;
 }
+
 .fp-img-over {
-    display: none;
-
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    text-align:center;
+    color: #fff!important;
 }
+
 .fp-img {
-        object-fit: cover;
-        height: 100%;
-        position: relative;
-        display:inline-block;
-}
-.fp-img:hover .fp-img-over{
+    object-fit: cover;
+    height: 100%;
+    position: relative;
     display:inline-block;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.8);
-    position:absolute;
-    top:0;
-    left:0;
+}
+
+.fp-img-cont:hover .fp-img-over{
+    opacity: 0.9;
 
 }
+
 .fp-hr {
     width: 20%;
     text-align: center;
@@ -54,6 +141,21 @@ body{
     height: 3px;
     margin-bottom: 20px;
     margin-top: 20px;
+
+}
+.fp-over-logo {
+    max-width: 200px;
+    margin-top: 15%;
+}
+.fp-over-par{
+    max-width: 280px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100
+    !important;
 }
 .fp-card {
     padding: 20px;
@@ -61,7 +163,15 @@ body{
     -moz-box-shadow: -1px 10px 85px 8px rgba(0,0,0,0.26);
     box-shadow: -1px 10px 85px 8px rgba(0,0,0,0.26);
     max-width: 340px!important;
-    margin: 22px;
+    margin: 1%;
 
+}
+.fp-btn{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
