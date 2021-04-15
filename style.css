@@ -89,7 +89,6 @@ body{
 
 /* menu =========*/
 .wp_menu_kiko #menu-menu-1{
-    /*list-style: none;*/
     display: inline-flex;
 }
 .wp_menu_kiko .menu li{
