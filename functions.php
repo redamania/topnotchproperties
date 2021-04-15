@@ -17,3 +17,12 @@ function boostrap_theme() {
 add_action( 'wp_enqueue_scripts', 'boostrap_theme' );
 
 register_nav_menus( [ 'primary' => __( 'Primary Menu' ) ] );
+
+//Filtering a Class in Navigation Menu Item
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if(is_single() && $item->title == 'Blog'){
+             $classes[] = 'current-menu-item';
+     }
+     return $classes;
+}
