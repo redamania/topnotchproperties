@@ -1,8 +1,9 @@
-x<?php get_header(); ?>
+<?php get_header(); ?>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top wp_nav_kiko" id="navbarkiko">
     	<div class="container-fluid wp_menu_kiko">
-        <?php wp_nav_menu()?>	
+        <?php wp_nav_menu('order')?>	
+        
         </div>
     </nav>
 
@@ -172,4 +173,5 @@ x<?php get_header(); ?>
 <div class="section">
 	<center><button type="button" class="btn btn-primary btn-lg">Contact us now</button></center>
 </div>
+
 <?php get_footer(); ?>

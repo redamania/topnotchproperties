@@ -88,12 +88,40 @@ body{
 
 
 /* menu =========*/
-.wp_menu_kiko #menu-menu-1{
-    display: inline-flex;
+
+.wp_nav_kiko{
+    margin-top: 5vh;
+    transition: 0.4s;
 }
-.wp_menu_kiko .menu li{
+.wp_menu_kiko li{
     list-style: none;
-    /*display: none;*/
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.wp_menu_kiko li a{
+    color: #fff;
+}
+.wp_menu_kiko li .sub-menu{
+    display: none;
+    position: fixed;
+    padding: 10px;
+    background: #fff;
+}
+.wp_menu_kiko li .sub-menu li a{
+    color: #000;
+}
+.wp_menu_kiko li:hover + .sub-menu{
+    display:block;
+      
+}
+         
+.container-fluid.wp_menu_kiko{
+    align-items: center!important;
+    justify-content: center!important;
+}
+.wp_menu_kiko .menu{
+    padding: 0px;
+    display: inline-flex;
 }
 
 
