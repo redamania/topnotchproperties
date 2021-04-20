@@ -3,57 +3,77 @@ Theme Name: topnotchdesign
 Author:Red Velasco
 Version: 1.0
  */
- /*global css*/
-body{
-    background: radial-gradient(at 100% 170%, 
-        rgba(184,187,181,1) 21%, 
-        rgba(68,98,138,1) 55%, 
-        rgba(26,81,123,1) 65%);
-    
+/*global css*/
+body {
+    background: radial-gradient(at 100% 170%,
+        rgba(184, 187, 181, 1) 21%,
+        rgba(68, 98, 138, 1) 55%,
+        rgba(26, 81, 123, 1) 65%);
+
 }
- /*quick calls css*/
 
-.bord-no{border:none!important;}
-.bord-rad-no{border-radius: 0rem!important;}
-.text-cent{text-align: center!important;}
-.disp-block{display:block!important;}
-.disp-inblock{display:inline-block!important;}
+/*quick calls css*/
 
-.section h3{
+.bord-no {
+    border: none !important;
+}
+
+.bord-rad-no {
+    border-radius: 0rem !important;
+}
+
+.text-cent {
+    text-align: center !important;
+}
+
+.disp-block {
+    display: block !important;
+}
+
+.disp-inblock {
+    display: inline-block !important;
+}
+
+.section h3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400!important;
+    font-weight: 400 !important;
     font-size: 30pt;
     padding: 75px 20px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 5px;
 }
+
 /*carousel ========*/
-.car-main .car-inner{
+.car-main .car-inner {
     /*border-bottom: 35px solid #062e5d;*/
     max-height: 94vh;
 }
-.car-main .car-typo-main span{
+
+.car-main .car-typo-main span {
     font-weight: 500;
 }
 
-.car-main .car-kiko-main{
+.car-main .car-kiko-main {
     position: absolute;
     z-index: 1000;
     bottom: 0;
     width: 40vw;
 }
-.car-main .car-typo-main{
+
+.car-main .car-typo-main {
     position: absolute;
     bottom: 20vh;
     width: 58vw;
     z-index: 990;
 }
-.car-typo-main .car-text-img-top{
+
+.car-typo-main .car-text-img-top {
     position: relative;
     left: 30vw;
 }
-.car-main .car-typo-main h2{
+
+.car-main .car-typo-main h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #fff;
@@ -66,14 +86,14 @@ body{
 
 
 
-.car-mw-logo{
+.car-mw-logo {
     padding: 20px 0px;
     filter: drop-shadow(1px 0px 1px #fff);
     width: 30%;
 }
 
-.car-main .car-typo-main h3{
-    background: #eda80a;  
+.car-main .car-typo-main h3 {
+    background: #eda80a;
     height: 9vh;
     text-align: right;
     text-transform: uppercase;
@@ -89,37 +109,43 @@ body{
 
 /* menu =========*/
 
-.wp_nav_kiko{
+.wp_nav_kiko {
     margin-top: 5vh;
     transition: 0.4s;
 }
-.wp_menu_kiko li{
+
+.wp_menu_kiko li {
     list-style: none;
     text-transform: uppercase;
     padding: 0 20px;
 }
-.wp_menu_kiko li a{
+
+.wp_menu_kiko li a {
     color: #fff;
 }
-.wp_menu_kiko li .sub-menu{
+
+.wp_menu_kiko li .sub-menu {
     display: none;
     position: fixed;
     padding: 10px;
     background: #fff;
 }
-.wp_menu_kiko li .sub-menu li a{
+
+.wp_menu_kiko li .sub-menu li a {
     color: #000;
 }
-.wp_menu_kiko li:hover + .sub-menu{
-    display:block;
-      
+
+.wp_menu_kiko li:hover+.sub-menu {
+    display: block;
+
 }
-         
-.container-fluid.wp_menu_kiko{
-    align-items: center!important;
-    justify-content: center!important;
+
+.container-fluid.wp_menu_kiko {
+    align-items: center !important;
+    justify-content: center !important;
 }
-.wp_menu_kiko .menu{
+
+.wp_menu_kiko .menu {
     padding: 0px;
     display: inline-flex;
 }
@@ -130,10 +156,10 @@ body{
     text-transform: uppercase;
     letter-spacing: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600!important;
+    font-weight: 600 !important;
     font-size: 25px;
     font-weight: 300;
-    color:#154367;
+    color: #154367;
 }
 
 .fp-img-cont {
@@ -154,18 +180,18 @@ body{
     opacity: 0;
     transition: .5s ease;
     background-color: #000;
-    text-align:center;
-    color: #fff!important;
+    text-align: center;
+    color: #fff !important;
 }
 
 .fp-img {
     object-fit: cover;
     height: 100%;
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
 
-.fp-img-cont:hover .fp-img-over{
+.fp-img-cont:hover .fp-img-over {
     opacity: 0.9;
 
 }
@@ -181,30 +207,33 @@ body{
     margin-top: 20px;
 
 }
+
 .fp-over-logo {
     max-width: 200px;
     margin-top: 15%;
 }
-.fp-over-par{
+
+.fp-over-par {
     max-width: 280px;
     text-align: justify;
     margin: 0 auto;
     margin-top: 15%;
     margin-bottom: 15%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100
-    !important;
+    font-weight: 100 !important;
 }
+
 .fp-card {
     padding: 20px;
-    -webkit-box-shadow: -1px 10px 85px 8px rgba(0,0,0,0.26);
-    -moz-box-shadow: -1px 10px 85px 8px rgba(0,0,0,0.26);
-    box-shadow: -1px 10px 85px 8px rgba(0,0,0,0.26);
-    max-width: 340px!important;
+    -webkit-box-shadow: -1px 10px 85px 8px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: -1px 10px 85px 8px rgba(0, 0, 0, 0.26);
+    box-shadow: -1px 10px 85px 8px rgba(0, 0, 0, 0.26);
+    max-width: 340px !important;
     margin: 1%;
 
 }
-.fp-btn{
+
+.fp-btn {
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -212,4 +241,3 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
