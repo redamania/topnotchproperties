@@ -1,9 +1,6 @@
-// export {};
 
+import $ from "jquery";
 
-if (typeof window === 'undefined') {
-  global.window = {}
-}
 
 
   /*onscrolls===========================*/
@@ -30,7 +27,7 @@ function scrollFunction() {
     	navbarKiko.style.marginTop = "0";
 
  	} else {
- 		
+ 	
     	// document.getElementById("navbarkiko").style.padding = "80px 10px";
     	navbarKiko.style.background = "transparent";
     	navbarKiko.style.marginTop = "5vh";
@@ -53,4 +50,5 @@ function addUnicodeMenu() {
 /*=================== if document is ready*/
 $(document).ready(function() {
   addUnicodeMenu();
+  console.log("lolo mo");
 });

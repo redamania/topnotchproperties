@@ -6,9 +6,6 @@
 <head>
 
 
-	<!-- <script src='http://code.jquery.com/jquery-3.0.0.min.js'></script> -->
-
-
 	<meta charset ="<?php bloginfo('charset');?>">
 	<title> <?php bloginfo('name'); ?> </title>
 

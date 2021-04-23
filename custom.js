@@ -1,7 +1,6 @@
-// export {};
-if (typeof window === 'undefined') {
-    global.window = {};
-}
+"use strict";
+exports.__esModule = true;
+var jquery_1 = require("jquery");
 /*onscrolls===========================*/
 window.onscroll = function () {
     scrollFunction();
@@ -30,11 +29,12 @@ function addUnicodeMenu() {
     console.log(menuItem);
     var getLi = document.getElementsByTagName("li");
     console.log(getLi);
-    if ($("li").hasClass("menu-item-has-children")) {
+    if (jquery_1["default"]("li").hasClass("menu-item-has-children")) {
         // menuItem.append("done");
     }
 }
 /*=================== if document is ready*/
-$(document).ready(function () {
+jquery_1["default"](document).ready(function () {
     addUnicodeMenu();
+    console.log("lolo mo");
 });

@@ -1,0 +1,31 @@
+{
+  "name": "topnotchdesign",
+  "version": "1.0.0",
+  "description": "packpag json for topnotch",
+  "main": "custom.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "save": "^2.4.0",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.35.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redamania/topnotchproperties.git"
+  },
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "author": "red velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redamania/topnotchproperties/issues"
+  },
+  "homepage": "https://github.com/redamania/topnotchproperties#readme"
+}
